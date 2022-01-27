@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMBURGUESA</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://www.lamburguesa.es/wp-content/uploads/2019/11/Favicon-1.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado -->
+<header class="container-fluid">
+
+    <img src="img/logo.png" alt="">
+    
+    <!-- Botones encabezado -->
+    <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid justify-content-start">
+          <a class="btn btn-outline-primary" href="index.html" role="button">Home</a>
+          <a class="btn btn-outline-info" href="contact.html" role="button">Contact</a>
+          <a class="btn btn-outline-secondary" href="menu.html" role="button">Menu</a>
+        </form>
+      </nav>
+    </header>
+    <div class="container  border-top border-primary " style="max-width: 520px" id="contenedor-formulario">
+        <div class="text-center mb-4" id="titulo-formulario">
+          <h2>Contactanos</h2>
+          <p class="fs-5">¿Tienes cualquier duda o necesitas más información?
+            ¿O quizá tienes alguna sugerencia?
+            Háblanos, nosotros te escuchamos, queremos seguir mejorando
+            y ayudarte. Nos importa mucho tu opinión.</p>
+        </div>
+  
+       <!-- //FORMULARIO// -->
+  
+        <form   method="POST" data-netlify="true" action="#">     
+              <div class= "mb-3">           
+                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com"> 
+              </div>
+   
+            
+              <div class="mb-3">            
+                <input type="input" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+              </div>
+        
+  
+              <div class="mb-3">
+                <input type="tel" class="form-control" name="telefono" id="telefono" placeholder="Teléfono">
+              </div>
+  
+            <div class="mb-3">       
+              <textarea class="form-control" name="mensaje" id="mensaje" rows="4" placeholder="Tu mensaje..."></textarea>
+            </div>
+  
+            <div class="mb-3">
+              <button type="submit" class=" btn btn-dark w-100 fs-5 text-info">Enviar Mensaje</button>
+            </div>
+        </form>
+    
+    </div>
+  </section>
+
+</body>
+
+</html>
