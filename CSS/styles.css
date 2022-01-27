@@ -1,0 +1,21 @@
+
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    background-color: white;  
+}
+
+
+.carousel-image{
+ width: 100%;
+}
+.carousel-item{
+    width: 50% !important;
+}
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+
+
