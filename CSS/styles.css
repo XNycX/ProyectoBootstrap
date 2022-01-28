@@ -61,7 +61,7 @@ nav a {
  .row{
     margin-right: 15px !important;
 }
-.father{
+.padre{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
