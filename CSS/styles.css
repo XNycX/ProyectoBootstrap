@@ -18,4 +18,16 @@
     justify-content: center;
 }
 
+.space{
+    width: 30vw;
+}
 
+.navbar .btn{
+    border: none !important;
+}
+.space .btn{
+    border: none !important;
+}
+.space img{
+    width: 20%;
+}
