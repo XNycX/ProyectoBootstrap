@@ -17,7 +17,11 @@ Necesitaremos simplemente la instalación de un programa para realizar nuestro c
 
 ## Foto del proyecto final ✌(◕‿-)✌
 
+### Vista Inicio
 ![foto](/img/Inicio.PNG)
+### Vista Carta
 ![foto](/img/Carta.PNG)
+### Vista Contacto
 ![foto](/img/Contacto.PNG)
+### Vista A Domicilio
 ![foto](/img/Domicilio.PNG)
