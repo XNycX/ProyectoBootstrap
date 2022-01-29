@@ -2,6 +2,8 @@
 
 Es el segundo proyecto que realizo en GeekHubs Academy, consiste en la realización de una página web de un restaurante usando Html, CSS y Bootstrap.
 
+Si quieres probar mi proyecto aquí te facilito el enlace: https://xnycx.github.io/ProyectoBootstrap/
+
 ## Pre-requisitos 📋
 
 Necesitaremos simplemente la instalación de un programa para realizar nuestro código, en este proyecto se ha utilizado Visual Studio Code
