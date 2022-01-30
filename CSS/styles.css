@@ -78,5 +78,23 @@ nav a {
     header nav a {
         font-size: 15px !important;
     }
-   
+    .card-domicilio{
+        margin: 1em !important;;
+    }
+    .card-title{
+        font-size: 2em;
+    }
+   .card-text{
+       font-size: 1em;
+   }
+   .card-body a{
+       font-size: 1em;
+   }
+   .card-body .btn{
+    width: 70%;
+}
+.imagenfondo{
+    display: flex;
+    flex-direction: column;
+}
 }
