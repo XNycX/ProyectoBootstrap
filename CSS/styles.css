@@ -1,40 +1,44 @@
-
-body{
-    cursor: url('/img/Favicon-1.jpg'),auto;
+body {
+    cursor: url('/img/Favicon-1.jpg'), auto;
 }
-.container-fluid{
+
+.container-fluid {
     display: flex;
     justify-content: center;
-    background-color: white;  
+    background-color: white;
 }
 
 
-.carousel-image{
- width: 100%;
+.carousel-image {
+    width: 100%;
 }
-.carousel-item{
+
+.carousel-item {
     width: 50% !important;
 }
-.carousel-inner{
+
+.carousel-inner {
     display: flex;
     justify-content: center;
 }
 
-.space{
+.space {
     width: 15vw;
 }
 
-.navbar .btn{
+.navbar .btn {
     border: none !important;
 }
-.space .btn{
+
+.space .btn {
     border: none !important;
 }
-.space img{
+
+.space img {
     width: 20%;
 }
 
-.imagenfondo{
+.imagenfondo {
     background-color: rgba(255, 255, 255, 0);
     background-image: url(https://www.lamburguesa.es/wp-content/uploads/2020/05/Bacon-Burger-1.jpg);
     background-position: center center;
@@ -42,59 +46,72 @@ body{
     background-size: cover;
     height: calc(100vh - 80px);
     display: flex;
-    
+
 }
-.card{
+
+.card {
     height: 30%;
 }
 
 nav a {
-    font-size: 20px!important;
+    font-size: 20px !important;
 }
 
-.card-text{
+.card-text {
     font-size: 1.5em;
 }
-.card-body .btn{
+
+.card-body .btn {
     width: 40%;
 }
- .row{
+
+.row {
     margin-right: 15px !important;
 }
-.padre{
+
+.padre {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 93.5vh;
 }
 
-@media (max-width: 600px){
-    header img{
+@media (max-width: 600px) {
+    header img {
         width: 20%;
     }
+
     header form a {
         font-size: 15px !important;
     }
+
     header nav a {
         font-size: 15px !important;
     }
-    .card-domicilio{
-        margin: 1em !important;;
+
+    .card-domicilio {
+        margin: 1em !important;
+        ;
     }
-    .card-title{
+
+    .card-title {
         font-size: 2em;
     }
-   .card-text{
-       font-size: 1em;
-   }
-   .card-body a{
-       font-size: 1em;
-   }
-   .card-body .btn{
-    width: 70%;
-}
-.imagenfondo{
-    display: flex;
-    flex-direction: column;
-}
+
+    .card-text {
+        font-size: 1em;
+    }
+
+    .card-body a {
+        font-size: 1em;
+    }
+
+    .card-body .btn {
+        width: 70%;
+    }
+
+    .imagenfondo {
+        display: flex;
+        flex-direction: column;
+    }
 }
