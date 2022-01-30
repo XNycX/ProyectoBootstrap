@@ -67,3 +67,16 @@ nav a {
     justify-content: space-between;
     height: 93.5vh;
 }
+
+@media (max-width: 600px){
+    header img{
+        width: 20%;
+    }
+    header form a {
+        font-size: 15px !important;
+    }
+    header nav a {
+        font-size: 15px !important;
+    }
+   
+}
