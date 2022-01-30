@@ -115,3 +115,42 @@ nav a {
         flex-direction: column;
     }
 }
+
+@media (max-width: 450px) {
+    header img {
+       display: none;
+    }
+
+    header form a {
+        font-size: 14px !important;
+    }
+
+    header nav a {
+        font-size: 14px !important;
+    }
+
+    .card-domicilio {
+        margin: 1em !important;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .card-text {
+        font-size: 1em;
+    }
+
+    .card-body a {
+        font-size: 1em;
+    }
+
+    .card-body .btn {
+        width: 70%;
+    }
+
+    .imagenfondo {
+        display: flex;
+        flex-direction: column;
+    }
+}
